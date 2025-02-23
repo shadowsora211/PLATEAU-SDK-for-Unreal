@@ -9,6 +9,7 @@
 #include "RoadNetwork/RGraph/PLATEAURGraph.h"
 #include "RoadNetwork/RGraph/RGraph.h"
 #include "RoadNetwork/RGraph/RGraphEx.h"
+#include "RoadNetwork/RGraph/RGraphFactory.h"
 #include "RoadNetwork/Structure/PLATEAURnStructureModel.h"
 #include "RoadNetwork/Structure/RnModel.h"
 #include "RoadNetwork/Structure/RnRoad.h"

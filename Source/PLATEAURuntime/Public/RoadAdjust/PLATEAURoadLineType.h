@@ -9,7 +9,7 @@
 class FPLATEAURoadLineParam;
 
 UENUM(BlueprintType)
-enum class EPLATEAURoadLineType {
+enum class EPLATEAURoadLineType : uint8 {
     None UMETA(DisplayName = "None"),
     WhiteLine UMETA(DisplayName = "WhiteLine"),
     YellowLine UMETA(DisplayName = "YellowLine"),
