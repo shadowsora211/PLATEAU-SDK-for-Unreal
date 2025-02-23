@@ -10,7 +10,6 @@ public class PLATEAURuntime : ModuleRules
     {
         bEnableExceptions = true;
         PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
-        CppStandard = CppStandardVersion.Cpp17;
 
         PublicIncludePaths.AddRange(
             new string[]
@@ -103,9 +102,5 @@ public class PLATEAURuntime : ModuleRules
         {
             throw new Exception("Unknown OS.");
         }
-
-
-        //using c++17
-        CppStandard = CppStandardVersion.Cpp17;
     }
 }

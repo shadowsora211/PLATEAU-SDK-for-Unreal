@@ -65,8 +65,5 @@ public class PLATEAURuntimeBPLibraries : ModuleRules {
         } else {
             throw new Exception("Unknown OS.");
         }
-
-        //using c++17
-        CppStandard = CppStandardVersion.Cpp17;
     }
 }

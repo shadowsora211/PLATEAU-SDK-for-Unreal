@@ -117,11 +117,5 @@ public class PLATEAUEditor : ModuleRules
         {
             throw new Exception("Unknown OS.");
         }
-
-
-       
-
-        //using c++17
-        CppStandard = CppStandardVersion.Cpp17;
     }
 }
